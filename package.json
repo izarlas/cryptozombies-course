@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --plugin=prettier-plugin-solidity \"src/**/*.sol\" --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+     "lint-staged": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,13 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^8.0.0",
+    "lint-staged": "^16.0.0",
     "prettier": "^3.5.3",
     "prettier-plugin-solidity": "^2.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.sol": [
+      "prettier --plugin=prettier-plugin-solidity --write"
+    ]
   }
 }
