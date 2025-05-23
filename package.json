@@ -1,0 +1,26 @@
+{
+  "name": "cryptozombies-course",
+  "version": "1.0.0",
+  "description": "This repository contains my personal solutions and notes based on the [CryptoZombies](https://cryptozombies.io/) Solidity tutorials created by Loom Network.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --plugin=prettier-plugin-solidity \"src/**/*.sol\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izarlas/cryptozombies-course.git"
+  },
+  "keywords": [
+    "solidity",
+    "cryptozombies",
+    "blockchain",
+    "smart-contracts"
+  ],
+  "author": "Ioannis Zarlas <izarlas@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3",
+    "prettier-plugin-solidity": "^2.0.0"
+  }
+}
