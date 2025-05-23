@@ -10,3 +10,4 @@ struct Zombie {
     uint dna;
 }
 }
+
